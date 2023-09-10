@@ -40,10 +40,17 @@ const Tables = () => {
                                 </tr>
                             </thead>
                             <tbody>
-                                {table.tableData.data.map((rowData) => {
+                                {table.tableData.data.map((rowData,index) => {
+                                    if(index === 2) {
+                                        return (
+                                            <div>Смотреть больше...</div>
+                                        )
+                                    } else if (index >= 3) {
+                                        return
+                                    }
                                     return (
                                         <tr key={v1()}> 
-                                            <td className={styles.td}>{rowData.name}</td>
+                                            <td className={styles.td+" "+styles.item}>{rowData.name}</td>
                                             {rowData.status.map((value) => {
                                                 return <td key={v1()} className={styles.td+' '+styles.status}>{value === '-' ?
                                                 <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 66 42" fill="none">

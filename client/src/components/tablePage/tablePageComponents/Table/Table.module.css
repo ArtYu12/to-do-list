@@ -9,10 +9,10 @@
 }
 .th ,.td {
     border:2px solid black;
-    
+    text-align: center;
 }
 .th {
-   padding:5px; 
+   padding:10px; 
 }
 .td {
     padding:5px;

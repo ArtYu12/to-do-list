@@ -81,14 +81,14 @@ const Table:React.FC = () => {
                                     return <td key={v1()} className={styles.td} onClick={() => changeValue(indexRow,indexValue,value)}>
                                         {value === '-' ?<svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" viewBox="0 0 66 42" fill="none">
                                             <mask id="mask0_14_999" maskUnits="userSpaceOnUse" x="21" y="8" width="25" height="25">
-                                            <rect x="21.2538" y="8.5" width="24" height="24" fill="#D9D9D9"/>
+                                            <rect x="21.2538" y="8.5" width="45" height="45" fill="#D9D9D9"/>
                                             </mask>
                                             <g mask="url(#mask0_14_999)">
                                             <path d="M26.2538 21.5V19.5H40.2538V21.5H26.2538Z" fill="#1C1B1F"/>
                                             </g>
                                             </svg> : <svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" viewBox="0 0 66 42" fill="none">
                                             <mask id="mask0_14_1027"  maskUnits="userSpaceOnUse" x="21" y="8" width="25" height="25">
-                                            <rect x="21.5" y="8.5" width="24" height="24" fill="#D9D9D9"/>
+                                            <rect x="21.5" y="8.5" width="45" height="45" fill="#D9D9D9"/>
                                             </mask>
                                             <g mask="url(#mask0_14_1027)">
                                             <path d="M31.05 26.5L25.35 20.8L26.775 19.375L31.05 23.65L40.225 14.475L41.65 15.9L31.05 26.5Z" fill="#1C1B1F"/>
