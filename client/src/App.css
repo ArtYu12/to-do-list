@@ -1,0 +1,27 @@
+
+* {
+  --light-gray: #D9D9D9;
+  --dark-gray: #BCBCBC;
+  font-family: 'Inter';
+}
+
+body {
+  margin:0;
+  padding:0;
+}
+.app {
+  display:flex;
+}
+.title.completed {
+  text-decoration: line-through;
+}
+.preloder {
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  
+}
+.preloder img {
+  transform: translateY(-50%);
+}

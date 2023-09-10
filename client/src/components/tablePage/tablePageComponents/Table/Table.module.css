@@ -1,0 +1,42 @@
+.table {
+    border-spacing: 0px;
+    border-collapse: collapse;
+}
+.container {
+    width:100%;
+    padding-left: 5px;
+    background-color: rgb(234, 231, 231);;
+}
+.th ,.td {
+    border:2px solid black;
+    
+}
+.th {
+   padding:5px; 
+}
+.td {
+    padding:5px;
+}
+.item {
+    min-width: 120px;
+    word-break: break-all;
+    text-align: center;
+}
+h2 {
+    display: flex;
+    font-size:40px;
+    margin-top:40px;
+    align-items: center;
+}
+.bucket svg {
+    margin-left:10px;
+    width:30px;
+    height: 30px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.td rect {
+    background-color: transparent;
+}
